@@ -1,8 +1,6 @@
 # bootstrap
 Here we are testing Bootstrap while emilating a Figma design template. 
 
-
-
 ## Built With
 - HTML 
 - SCSS 
@@ -22,7 +20,6 @@ Here we are testing Bootstrap while emilating a Figma design template.
 - GitHub 
 
 ## Authors
-👤 Brian Buntu Ludidi and 
 
 GitHub: @Bludidi https://github.com/Bludidi and @somarib https://github.com/somarib
 
