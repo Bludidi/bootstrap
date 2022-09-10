@@ -24,10 +24,10 @@ Here we are testing Bootstrap while emilating a Figma design template.
 ## Authors
 👤 Brian Buntu Ludidi and 
 
-GitHub: @Bludidi 
+GitHub: @Bludidi https://github.com/Bludidi and @somarib https://github.com/somarib
 
 
-🤝 Contributing
+### 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
