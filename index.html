@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Try Bootstrap</title>
+    <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -22,9 +23,9 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top">
+<body class="container-fluid d-inline-flex g-0">
+    <header class="container-fluid p-0">
+        <nav class="navbar navbar-expand-sm fixed-top">
             <div class="container-fluid d-inline-flex align-items-center">
                 <div class="navbar-brand">
                     <a href="#" class="text-white ps-5">BBL</a>
@@ -48,14 +49,34 @@
             </div>
         </nav>
 
-
-        <div class="container-fluid d-grid">
-            <div class="text-danger d-flex flex-column"><h1 class="text-danger">Hey There.
-                I’m Brian</h1>
+        <div class="top_section container-fluid g-0 d-inline-flex">
+            <div class="soc_medicons d-flex col-2 align-items-center gap-5">
+                <ul class="u_List p-0 gap-5">
+                    <li class="soc_item m-3">
+                        <img src="Assets/images/github.svg" alt="Github Icon">
+                    </li>
+                    <li class="soc_item m-3">
+                        <img src="Assets/images/Linkedin.svg" alt="Github Icon">
+                    </li>
+                    <li class="soc_item m-3">
+                        <img src="Assets/images/angel.svg" alt="Github Icon">
+                    </li>
+                    <li class="soc_item m-3">
+                        <img src="Assets/images/twitter.svg" alt="Github Icon">
+                    </li>
+                    <li class="soc_item m-3">
+                        <img src="Assets/images/medium.svg" alt="Github Icon">
+                    </li>
+                </ul>
             </div>
-            <div></div>
-            <div class="bg-image bg-black d-flex align-content-end" style="background-image: url('Assets/images/header_img.svg'); height: 
-        768.48px; background-repeat: no-repeat;">
+            <div class="col-5">
+                <h1 class="display-1">Hey There.
+                    I’m Brian</h1>
+                    <p class="paragraph paragraph1 display-6 lead">I’am a Software Developer</p>
+                    <p class="paragraph paragraph2">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+                        don’t hestiate to contact me.</p>
+            </div>
+            <div class="container-fluid col-5 bg-image float-end p-0" style="background-image: url('Assets/images/header_img.svg');">
             </div>
         </div>
     </header>
